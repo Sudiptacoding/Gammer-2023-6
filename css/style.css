@@ -475,7 +475,7 @@ nav ul li a .fa-tiktok {
     background: #FFF;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: unset;
     transition: border .1s linear, color .1s linear;
     gap: 10px;
     color: #0B0223;
@@ -484,6 +484,7 @@ nav ul li a .fa-tiktok {
     font-weight: 600;
     line-height: normal;
     cursor: pointer;
+    padding: 0px 10px;
 }
 
 .allgame-container .box:hover {
@@ -702,7 +703,7 @@ nav ul li a .fa-tiktok {
     }
 
     .allgame-container .box {
-        width: 190px;
+        width: 192px;
     }
 }
 
@@ -813,9 +814,9 @@ nav ul li a .fa-tiktok {
         padding: 10px;
     }
 
-
-
 }
+
+
 
 @media screen and (min-width:769px) and (max-width:1200px) {
     nav ul {
